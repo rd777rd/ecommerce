@@ -3,8 +3,8 @@ import { PRODUCTS } from '../../products';
 import { ShopContext } from '../../context/shop-context';
 import { CartItem } from './cart-item';
 import "./cart.css"
+import {totalAmount} from '../../context/shop-context'
 import { useNavigate } from 'react-router-dom';
-import "../../price.js"
 export const Cart = () => {
     const {cartItems, getTotalCartAmount} = useContext(ShopContext);
     const totalAmount = getTotalCartAmount()
@@ -31,9 +31,9 @@ export const Cart = () => {
                 if (cartItems[product.id] !== 0) {
                     return <CartItem data={product} />;
                 }
-                
+ 
             })}
-            {totalAmount > 0 ? (
+            {cartItems !== 0 ? (
                 
         <div className="proceed">
                 <h1>Checkout</h1>
