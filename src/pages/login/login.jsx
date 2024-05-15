@@ -21,7 +21,7 @@ axios.defaults.withCredentials = true;
     const err= Validation(values);
     setErrors(err);
     if(err.email === "" && err.password ==="") {
-      axios.post('http://localhost:3306/login', values)
+      axios.post('http://localhost:8081/login', values)
       .then(res => {
         if (res.data.Status === "Success"){
           navigate('/');
