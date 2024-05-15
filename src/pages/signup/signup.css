@@ -1,0 +1,331 @@
+.signUp{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding:0;
+}
+.signUp .firstName{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.firstname label{
+    display: block;
+    margin-bottom: 0;
+
+}
+.firstName input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.signUp .lastName{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.lastName label{
+    display: block;
+    margin-bottom: 0;
+
+}
+.lastName input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+
+}
+.signUp .address{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.address label{
+    display: block;
+    margin-bottom: 0;
+
+}
+.address input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+
+}
+.signUp .birthDate{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.birthDate label{
+    display: block;
+    margin-bottom: 0;
+
+}
+.birthDate input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+
+}
+.signUp .email{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+
+
+}
+.signUpTitleContainer{
+    display: block;
+}
+.signUpTitleContainer h1{
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.signUpTitleContainer p{
+    font-size:1.5em;
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+.signContainer{
+    display:block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #36454F;
+    color:white;
+    padding:20px;
+    border-radius: 5px;
+
+}
+.email label{
+    display: block;
+    margin-bottom: 0;
+
+ 
+
+}
+.email input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.signUp .password{
+    display:inline-block;
+    width:50%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.password label{
+    display: block;
+
+}
+.password input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-weight: bold;
+
+
+}
+.logInLink{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signUp a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em; 
+}
+.signUp a:hover{
+    color:blue;
+    
+    
+}
+.signUp button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    color:white;
+    background-color: black;
+    border:none;
+    width:50%;
+    padding:20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+.signUp button:hover{
+    color:#36454F;
+}
+.signUp span{
+    margin-top: 10px;
+    display: block;
+    color:red;
+    font-size: 20px;
+}
+@media (max-width:757px){
+    .signUp .firstName{
+        font-size:1.5em;
+
+    }
+    .signUp .lastName{
+        font-size:1.5em;
+
+    }
+    .signUp .address{
+        font-size:1.5em;
+
+    }
+    .signUp .birthDate{
+        font-size:1.5em;
+
+    }
+    .signUp  .email{
+        font-size:1.5em;
+
+    }
+    .signUp  .password{
+        font-size:1.5em;
+
+    }
+
+}
+@media (max-width:560px){
+    .signUp .firstName{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+        margin-bottom: 20px;
+
+    }
+    .signUp .lastName{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+
+    }
+    .signUp .address{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+
+    }
+    .signUp .birthDate{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+
+    }
+    .signUp  .email{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+
+    }
+    .signUp  .password{
+        display:block;
+        width: 80%;
+        font-size:1.5em;
+
+    }
+}
+@media(max-width:370px){
+    .logInContainer button{
+        width:100%;
+    }
+}
+@media(max-width:300px){
+    .logInContainer{
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logInContainer a{
+        text-decoration: none;
+        color:black;
+        font-size: 1.3em; 
+    }
+    .logInContainer a:hover{
+        color:blue;
+        
+        
+    }
+    .logInContainer button{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        border:none;
+        color:white;
+        background-color: black;
+        border:none;
+        padding:20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 1.5em;
+        text-wrap: wrap;
+        
+    
+    }
+    .signUpTitleContainer p{
+        font-size:1.3em;
+        margin-bottom:20px;
+        margin-top: 10px;
+    }
+    
+
+}

@@ -1,0 +1,182 @@
+.logIn{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding:0;
+}
+.logIn .email{
+    display:block;
+    width:80%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.logInTitleContainer{
+    display: block;
+}
+.logInTitleContainer h1{
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.logInTitleContainer p{
+    font-size:1.5em;
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+.logInContainer{
+    display:block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #36454F;
+    color:white;
+    padding:20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.email label{
+    display: block;
+    margin-bottom: 0;
+
+ 
+
+}
+.email input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.logIn .password{
+    display:block;
+    width:80%;
+    font-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.logIn span{
+    margin-top: 10px;
+    display: block;
+    color:red;
+    font-size: 20px;
+}
+.password label{
+    display: block;
+
+}
+.password input{
+    width: 80%;
+    border:none;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 0;
+
+}
+.signUpContainer{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logIn a{
+    padding-top: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em; 
+}
+.logIn a:hover{
+    color:blue;
+    
+    
+}
+.logIn button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    color:white;
+    background-color: black;
+    border:none;
+    width:50%;
+    padding:20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+.logIn button:hover{
+    color:#36454F;
+}
+@media(max-width:470px){
+
+    .logIn .password{
+        font-size: 1.5em;
+    }
+    .logIn .email{
+        font-size: 1.5em;
+    }
+    .logInTitleContainer h1{
+        font-size: 1.6em;
+    }
+    .logInTitleContainer p{
+        font-size: 1em;
+    }
+    
+}
+@media(max-width:300px){
+    .signUpContainer{
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logIn a{
+        text-decoration: none;
+        color:black;
+        font-size: 1.3em; 
+    }
+    .logIn a:hover{
+        color:blue;
+        
+        
+    }
+    .logIn button{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        border:none;
+        color:white;
+        background-color: black;
+        border:none;
+        width:80%;
+        padding:20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 1.5em;
+        text-wrap: nowrap;
+        
+    
+    }
+    .logInTitleContainer p{
+        font-size:1.3em;
+        margin-bottom:20px;
+        margin-top: 10px;
+    }
+    
+
+}

@@ -1,0 +1,56 @@
+body{
+    display: block;
+    width:100%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}
+.App {
+    display: block;
+    text-align: center;
+    margin:0;
+    width: 100%;
+  }
+  #root{
+    display:block;
+    width: 100%;
+    background-color: black;
+  }
+  
+  /*@media(max-width:400px){
+  #root{
+    display:block;
+    width: 100%;
+    background-color: blue;
+    margin:0;
+    padding:0;
+  }
+}
+@media(max-width:320px){
+    body{
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+        max-width:320px;
+
+    }
+    .App{
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+        max-width:320px;
+
+    }
+    #root{
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+        max-width:320px;
+    }
+}
+*/
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }

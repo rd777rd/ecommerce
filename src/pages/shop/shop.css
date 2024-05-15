@@ -1,0 +1,224 @@
+.shopContainer{
+    display: block;
+    width:100%;
+    margin:0;
+    border: 0;
+
+}
+.shop{
+    display:block;
+    width:100%;
+    margin:0;
+    text-align: center;
+    padding:0;
+    background-color: white;
+
+}
+.shopTitleContainer{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+}
+.shopTitle{
+    text-align: center;
+    color:black;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.products{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width:100%;
+}
+.products h2{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.product{
+    display: block;
+    width: 25%;
+    margin:1em auto 1em auto;
+    align-items: center;
+    background-color: white;
+    border: 5px solid #36454F;
+    border-radius: 10px;
+    padding:10px;
+}
+.product:hover{
+    background-color:rgb(225,225,225,.9) ;
+}
+.productImage{
+    display: block;
+    width: 100%;
+}
+.product .description{
+    margin-left: 10px;
+    margin-right: 10px;
+    display:block;
+    justify-content: space-between;
+    font-size: 2em;
+
+}
+.productName{
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+.price{
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.addToCartButton{
+    background-color: black;
+    color:white;
+    padding:20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 40px;
+}
+.addToCartButton:hover{
+    background-color: #36454F;
+    color:black;
+}
+
+@media (max-width:690px) {
+    .shopTitle{
+        font-size:2.5em;
+    }
+    .product .description{
+        margin-left: 10px;
+        margin-right: 10px;
+        display:block;
+        font-size: 2em;
+        
+    
+    }
+    .productName{
+        font-weight: bold;
+        margin-bottom: 0;
+    
+    }
+    .price{
+        font-size: 1em;
+        margin-top: 5px;
+    }
+    
+}
+
+@media (max-width:690px){
+    .product{
+        width:80%;
+    }
+}
+
+
+@media(max-width:400px){
+    .shop{
+        display:block;
+        width:100%;
+        margin:0;
+        text-align: center;
+        padding:0;
+    
+    }
+    .shopTitleContainer{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: full-width;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .shopTitle{
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .products{
+        margin-top: 10px;
+        display:block;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        width:100%;
+    }
+    .product{
+        display: block;
+        width: 80%;
+        margin:1em auto 1em auto;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        padding:10px;
+    }
+    .product:hover{
+        background-color:rgb(225,225,225,.9) ;
+    }
+    .productImage{
+        display: block;
+        max-width: 100%;
+    }
+    .product .description{
+        margin-left: 10px;
+        margin-right: 10px;
+        display:block;
+        justify-content: space-between;
+        font-size: 2em;
+    
+    }
+    .productName{
+        font-weight: bold;
+        margin-bottom: 0;
+    
+    }
+    .price{
+        font-size: 1em;
+        margin-top: 10px;
+    }
+    
+    .addToCartButton{
+        background-color: black;
+        color:white;
+        padding:20px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 40px;
+    }
+    .addToCartButton:hover{
+        background-color: #ffcf00;
+        color:red;
+    }
+
+  }
+  @media (max-width:320px){
+    .shopContainer{
+        display: block;
+        width:100%;
+        margin:0;
+        border: 0;
+    
+    }
+    .shop{
+        display:inline-block;
+        width:100%;
+        margin:0;
+        text-align: center;
+        padding:0;
+    
+    }
+
+  }
