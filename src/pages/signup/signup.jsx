@@ -25,7 +25,7 @@ const [errors, setErrors] = useState({})
     const err= Validation(values);
     setErrors(err);
     if(err.firstName === "" && err.lastName ==="" && err.birthDate === "" && err.address ==="" && err.email === "" && err.password ==="") {
-      axios.post('http://localhost:8081/signup', values)
+      axios.post('https://ecommerce-imta.onrender.com/signup', values)
       .then(res => {
         navigate('/login');
       })
