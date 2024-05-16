@@ -34,7 +34,7 @@ export const Shop = () => {
             <h1 className="shopTitle">Ecommerce</h1>
         </div>
         <div className="products">
-          <h2>{message}</h2>
+          
             {PRODUCTS.map((product) =>(
                 <Product data={product} />
             ))}
