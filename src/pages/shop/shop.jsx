@@ -33,26 +33,12 @@ export const Shop = () => {
         <div className="shopTitleContainer">
             <h1 className="shopTitle">Ecommerce</h1>
         </div>
-        {
-          auth ?
-              <div className="products">
-               <h2>Welcome Back {name}</h2>
-                {PRODUCTS.map((product) =>(
-                    <Product data={product} />
-                ))}
-            </div>
-
-        
-        :
-  
- 
         <div className="products">
           <h2>{message}</h2>
             {PRODUCTS.map((product) =>(
                 <Product data={product} />
             ))}
         </div>
-}
     </div>
             
   )
