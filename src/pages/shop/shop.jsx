@@ -10,7 +10,7 @@ export const Shop = () => {
   const[name, setName] = useState('')
   axios.defaults.withCredentials = true;
   useEffect(()=>{
-    axios.get('https://ecommerce-imta.onrender.com:8081')
+    axios.get('http://localhost:8081')
       .then(res => {
         if (res.data.Status === "Success"){
             console.log('Success')
