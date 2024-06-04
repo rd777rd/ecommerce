@@ -10,10 +10,11 @@ export const Shop = () => {
   const[name, setName] = useState('')
   axios.defaults.withCredentials = true;
   useEffect(()=>{
-    axios.get('http://localhost:8081')
+    axios.get('http://localhost:8081/')
       .then(res => {
         if (res.data.Status === "Success"){
             console.log('Success')
+         console.log(res.data.name)
         setAuth(true)
         setName(res.data.name)
 
