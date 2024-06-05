@@ -21,7 +21,7 @@ axios.defaults.withCredentials = true;
     const err= Validation(values);
     setErrors(err);
     if(err.email === "" && err.password ==="") {
-      axios.post('https://ecommercedb-q0qz.onrender.com/login', values)
+      axios.post('http://ecommercedb-q0qz.onrender.com/login', values)
       .then(res => {
         if (res.data.Status === "Success"){
           navigate('/');
