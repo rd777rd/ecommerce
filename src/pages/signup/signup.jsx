@@ -25,7 +25,7 @@ const [errors, setErrors] = useState({})
     const err= Validation(values);
     setErrors(err);
     if(err.firstName === "" && err.lastName ==="" && err.birthDate === "" && err.address ==="" && err.email === "" && err.password ==="") {
-      axios.post('https://ecommercedb-q0qz.onrender.com/signup:8080', values)
+      axios.post('https://ecommercedb-q0qz.onrender.com/signup', values)
       .then(res => {
         navigate('/login');
       })
