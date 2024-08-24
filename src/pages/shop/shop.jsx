@@ -10,7 +10,7 @@ export const Shop = () => {
   const[name, setName] = useState('')
   axios.defaults.withCredentials = true;
   useEffect(()=>{
-    axios.get('https://ecommercedb-q0qz.onrender.com')
+    axios.get('https://ecommercedb-q0qz.onrender.com/:8080')
       .then(res => {
         if (res.data.Status === "Success"){
             console.log('Success')
