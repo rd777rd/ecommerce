@@ -14,8 +14,8 @@ export const Shop = () => {
       .then(res => {
         if (res.data.Status === "Success"){
             console.log('Success')
-         console.log(res.data.name)
         setAuth(true)
+         console.log(res.data.name)
         setName(res.data.name)
 
   } else { 
